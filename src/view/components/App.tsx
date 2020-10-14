@@ -1,10 +1,8 @@
 import * as React from 'react';
 import { Route, Switch, HashRouter } from 'react-router-dom';
-import { createHashHistory } from 'history';
-import LandingPage from './LandingPage/LandingPage';
+import MainPage from './MainPage/MainPage';
 
-const history = createHashHistory();
-
+// Reactの本体
 const App = () => {
   const Context = React.createContext<{ user: string }>({ user: null });
 
@@ -13,15 +11,7 @@ const App = () => {
       <Context.Provider value={{ user: 'a' }}>
         <HashRouter>
           <Switch>
-            <Route
-              exact
-              path="/"
-              component={() =>
-                LandingPage({
-                  history,
-                })
-              }
-            />
+            <Route exact path="/" component={MainPage} />
           </Switch>
         </HashRouter>
       </Context.Provider>
