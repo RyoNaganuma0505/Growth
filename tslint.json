@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "tslint-config-airbnb"
+  ],
+  "rules": {
+    "quotemark": [
+      true,
+      "single",
+      "jsx-double"
+    ],
+    "variable-name": false,
+    "object-literal-shorthand": false,
+    "ter-arrow-parens": false,
+    "import-name": false
+  },
+  "linterOptions": {
+    "exclude": [
+      ".storybook",
+      "src/stories/*tsx"
+    ]
+  }
+}

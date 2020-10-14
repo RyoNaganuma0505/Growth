@@ -1,0 +1,10 @@
+# production
+/build
+/storybook-static
+
+# dependencies
+/node_modules
+package-lock.json
+
+# output
+/gen
