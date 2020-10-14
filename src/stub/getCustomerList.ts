@@ -13,12 +13,14 @@ export const getCustomerList = (): Customer[] => {
       name: 'hoge山 hoge美',
       year: 2,
       plan: 'A',
+      mail: "xxx@cmail.com",
     },
     {
       id: 2,
       name: 'hoge杉 hoge信',
       year: 3,
       plan: 'B',
+      mail: "yyy@cmail.com",
     },
   ];
 };

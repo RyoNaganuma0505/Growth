@@ -3,4 +3,5 @@ export interface Customer {
   name: string;
   year: number;
   plan: 'A' | 'B';
+  mail: string;
 }
