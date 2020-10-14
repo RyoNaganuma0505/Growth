@@ -27,6 +27,8 @@
     "react-stripe-checkout": "^2.6.3",
     "redux": "^4.0.1",
     "redux-form": "^8.2.0",
+    "sass": "^1.27.0",
+    "sass-loader": "^10.0.3",
     "subscriptions-transport-ws": "^0.9.16",
     "ts-node": "^9.0.0",
     "tslint": "^6.1.0",
